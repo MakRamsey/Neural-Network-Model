@@ -1,30 +1,29 @@
-# deep-learning-challenge
+# Neural-Network-Model
 
-## Overview
-
+## Overview:
 
 Greetings,
 
-Welcome to the ‘deep-learning-challenge’ repository! For this project, we were supplied a comprehensive features dataset (34,000+ entries) surrounding a nonprofit foundation’s applicant venture funding program with an included binary classifier label that indicates whether or not the instance was successful. Using this dataset, several neural networks were trained and tested to generate a binary classifier that can predict whether applicants will be successful.
+Welcome to the Neural-Network-Model repository! For this project, analysis was conducted on a comprehensive features dataset (34,000+ entries) surrounding a nonprofit foundation’s applicant venture funding program with an included binary classifier label that indicates whether or not the instance was successful. Using this dataset, several neural networks (both manually and Keras-Tuner optimized) were trained and tested to generate an algorithm that can predict whether or not applicants will be successful. Special consideration was taken during preprocessing for categorical bucketing/binning where appropriate.
 
-## Repository Structure
+**Repository Structure:**
 
-"Initial_Model" Directory - Contains all files associated with the initial algorithm
-- "Deep_Learning_Challenge.ipynb" - Jupyter Notebook with executed code for initial neural network model
-- "Initial_Model_Weights" Folder - Contains saved initial model weights as .keras files
-- "AlphabetSoupCharity.keras" - Initial neural network model
-- "Initial_Accuracy.png"
-- "Initial_Loss.png"
+- 'Initial_Model' directory: Contains all files associated with the initial neural network
+  - 'Initial_Model_Weights' directory: Contains saved initial model weights as .keras files
+  - "AlphabetSoupCharity.keras": Initial neural network model
+  - "Deep_Learning_Challenge.ipynb": Jupyter Notebook file with executed code for initial algorithm generation
+  - "Initial_Accuracy.png": Visualization of Model Accuracy vs. Epoch #
+  - "Initial_Loss.png": Visualization of Model Loss vs. Epoch #
 
 
-"Optimized_Models" Directory - Contains all files associated with the two subsequent optimized algorithms
-- "AlphabetSoupCharity_Optimization.ipynb" - Jupyter Notebook with executed code for (2) subsequent optimized models
-- "AlphabetSoupCharity_Manual_Optimization.keras" - Mannually optimized neural nework model
-- "AlphabetSoupCharity_KerasTuner_Optimization.keras" - Keras Tuner optimized neural network model
-- "Optimized_Accuracy.png"
-- "Optimized_Loss.png"
+- 'Optimized_Models' directory: Contains all files associated with the two subsequent optimized algorithms
+  - "AlphabetSoupCharity_KerasTuner_Optimization.keras": Keras-Tuner optimized neural network model
+  - "AlphabetSoupCharity_Manual_Optimization.keras": Mannually optimized neural nework model
+  - "AlphabetSoupCharity_Optimization.ipynb": Jupyter Notebook file with executed code for the (2) subsequent optimized models (manual and Keras-Tuner)
+  - "Optimized_Loss.png": Visualization of Optimized Model Loss vs. Epoch #
+  - "Optimized_Accuracy.png": Visualization of Optimized Model Accuracy vs. Epoch #
 
-## Results
+## Results:
 
 **Data Preprocessing:**
 
